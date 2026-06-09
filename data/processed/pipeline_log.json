@@ -1,0 +1,36 @@
+{
+  "step1_load": {
+    "rows": 150,
+    "time_sec": 0.03
+  },
+  "step2_features": {
+    "n_features": 19,
+    "time_sec": 0.01
+  },
+  "step3_train": {
+    "model_type": "auto",
+    "time_sec": 1.67
+  },
+  "step4_forecast": {
+    "rows": 24,
+    "time_sec": 0.01
+  },
+  "step5_save": {
+    "path": "C:\\Projects\\project\\data\\processed\\final_forecast.csv",
+    "time_sec": 0.0
+  },
+  "robustness": {
+    "missing_data": {
+      "status": "OK",
+      "missing_rows": 7,
+      "forecast_rows": 24
+    },
+    "outlier_data": {
+      "status": "OK",
+      "outlier_rows": 7,
+      "forecast_rows": 24
+    }
+  },
+  "total_time_sec": 3.86,
+  "status": "SUCCESS"
+}
